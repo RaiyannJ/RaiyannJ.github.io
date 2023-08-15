@@ -241,7 +241,8 @@ nav ul li a:hover::after{
 .services-list div i{
     font-size: 50px;
     margin-bottom: 30px;
-    margin-left: 125px;
+    display: block;
+    text-align: center;
 }
 
 .services-list div h2{
@@ -287,7 +288,7 @@ nav ul li a:hover::after{
 
 .work-list{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /*normally 250px in brackets*/ 
     gap: 40px;
     margin-top: 50px;
 }
@@ -300,7 +301,7 @@ nav ul li a:hover::after{
 
 .work div p{
     font-size: 19px;
-    margin-bottom: 4px;
+    margin-bottom: 20px;
 }
 
 .work img{
