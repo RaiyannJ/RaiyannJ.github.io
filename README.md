@@ -1,3 +1,3 @@
 # raiyannj.github.io
 
-My personal portfolio made with HMLT/CSS
+My personal portfolio is made with HTML/CSS. Check out the code!
