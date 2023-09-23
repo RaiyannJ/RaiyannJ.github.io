@@ -93,30 +93,6 @@ nav ul li a:hover::after{
     text-decoration: underline;
 }
 
-.header-text p span:before{
-    content: '';
-    animation: animate infinite 10s;
-    animation-timing-function: linear; /* maybe i can add typewriter effect one day*/
-}
-
-@keyframes animate{
-    0%{
-        content: 'Machine Learning Engineer'
-    }
-    25%{
-        content: 'Full Stack Developer'
-    }
-    50%{
-        content: 'Robotics Enthusiast'
-    }
-    75%{
-        content: 'Food Lover'
-    }
-    100%{
-        content: 'RNB enjoyer'
-    }
-}
-
 /* -------- about -------- */
 
 #about{

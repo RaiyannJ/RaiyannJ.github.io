@@ -12,6 +12,7 @@
 </head>
 <body>
 <script src="https://kit.fontawesome.com/2d2979665d.js" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
 <div id="header">
     <div class="container">
         <nav>
@@ -28,7 +29,15 @@
         </nav>
         <div class="header-text">
             <h1>Hi there, I'm<br><span>Raiyann Jacob!</span> </h1>
-            <p>I am a <span></span></p>
+            <p>I am a <span class = "auto-type"></span></p>
+            <script>
+                var typed = new Typed(".auto-type", {
+                    strings: ["M.L./A.I. Engineer", "Full Stack Developer", "Robotics Enthusiast", "R.N.B Music Enjoyer", "Liverpool FC Fan", "Foodie!"],
+                    typeSpeed: 80,
+                    backSpeed: 40,
+                    loop: true
+                })
+            </script>
         </div>
     </div>
 </div>
